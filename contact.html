@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TLC Animal Shelter</title>
+</head>
+<body style="background-color: wheat; margin: 0">
+    <h1 id="header" style="text-align: center;">TLC Animal Shelter</h1>
+    <table width="100%" style="padding: 20px; background-color: blue; text-align: center;">
+        <tbody>
+            <tr>
+                <td>
+                    <a href="index.html" class="navBar">Home</a>
+                </td>
+                <td>
+                    <a href="puppies.html" class="navBar">Adoptable Puppies</a>
+                </td>
+                <td>
+                    <a href="adoption.html" class="navBar">Adoption Process</a>
+                </td>
+                <td>
+                    <a href="contact.html" class="navBar">Contact Us</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        .navBar{
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            padding-left: 30%;
+        }
+        input, button, textarea{
+            display: block;
+            margin-bottom: 10px;
+            
+        }
+        input{
+            width: 80%;
+        }
+        button{
+            float: right;
+        }
+        textarea{
+            width: 100%;
+        }
+
+        form{
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+        .address, .phone{
+            margin: 0;
+            padding-left: 30%;
+        }
+        hr{
+            border: none;
+            height: 2px;
+            background-color: blue;
+            width: 35%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+      
+      
+    </style>
+
+    <h2>Contact Us</h2>
+    <h3>Write Us:</h3>
+    <p class="address">Tender Loving Care Animal Shelter</p>
+    <p class="address">13016 West 151st Street</p>
+    <p class="address">Homer Glen, IL 60491</p>
+  
+    <hr>
+
+    <h3>Call Us:</h3>
+    <p class="phone">708-555-5555</p>
+
+    <hr>
+
+    <h3>Send us a message:</h3>
+    <form action="GET">
+        <label for="name">Full name</label>
+        <input name="name" type="text" placeholder="Enter your name">
+
+        <label for="email">Email Address</label>
+        <input name="email" type="email" placeholder="JaneDoe@gmail.com">
+        
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+
+
+    <div style="padding-top:100px;">
+        <footer style="position:fixed; bottom:0; width: 100%; height: 3%; text-align: center; color: white; background-color: blue;">
+            <div style="margin: 0; padding: 7px;">
+                &copy;2021 Spraggins Corp
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
